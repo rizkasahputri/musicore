@@ -18,6 +18,14 @@ def search_by_artist(records, artist_name):
             
     return results
 
+def search_by_track(records, track_name):
+    results = []
+    target = clean_text(track_name)
+    for record in records:
+        if target in clean_text(record.track):
+            results.append(record)
+    return results
+
 def filter_collaborations(records):
     """Memfilter lagu-lagu yang merupakan hasil kolaborasi."""
     results = []
@@ -45,3 +53,17 @@ def get_top_n_tracks(records, n):
                 
     # Menggunakan slicing untuk memotong list sesuai jumlah N
     return sorted_records[:n]
+
+def calculate_avg_daily_streams_by_artist(records, artist_name):
+    artist_records = search_by_artist(records, artist_name)
+    if not artist_records:
+        return 0.0
+    total_daily_streams = sum(r.daily_streams for r in artist_records)
+    return total_daily_streams / len(artist_records)
+
+def compare_artist_popularity(records, artist_a, artist_b):
+    records_a = search_by_artist(records, artist_a)
+    records_b = search_by_artist(records, artist_b)
+    total_a = sum(r.spotify_streams_total for r in records_a)
+    total_b = sum(r.spotify_streams_total for r in records_b)
+    return total_a, total_b
