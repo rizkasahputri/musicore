@@ -20,7 +20,7 @@
     ```bash
     python -m unittest test_project.py
     ```
-    *(Note: Pastikan kamu menggunakan Python 3 dan hanya meng-install standard libraries. Tidak diperlukan pandas atau numpy).*
+    *(Note: Pastikan menggunakan Python 3 dan hanya meng-install standard libraries. Tidak diperlukan pandas atau numpy).*
 
 ## 3. Program Features
 1.  **Cari Lagu Berdasarkan Artis:** Memungkinkan user mengetik nama artis. Program membersihkan input (seperti case-sensitive dan kelebihan spasi) dan mengembalikan semua lagu dari artis tersebut menggunakan partial string matching.
