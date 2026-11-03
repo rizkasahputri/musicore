@@ -5,7 +5,7 @@
 **Kelas:** CPro2
 
 ## 1. Informasi Dataset
-*   **Dataset Name:** `most_streamed_spotify_2025.csv`
+*   **Nama Dataset:** `most_streamed_spotify_2025.csv`
 *   **Kaggle Link:** `https://www.kaggle.com/datasets/kylefengkfeng209/most-streamed-spotify-songs-2025`
 *   **Alasan memilih dataset:** Dataset ini memenuhi ketentuan ujian dengan jumlah baris sebanyak 730 baris dan tidak berisi informasi pribadi.
 *   **Kolom yang digunakan:** `rank`, `track`, `artist`, `billed_artist_count`, `is_collaboration`, `spotify_streams_total`, `daily_streams`, `daily_streams_rank`, `daily_stream_share_pct`.
