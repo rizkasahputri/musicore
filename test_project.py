@@ -1,7 +1,7 @@
 import unittest
 from models import SpotifyTrack
-from text_utils import clean_text
 from analysis import (
+    clean_text, 
     search_by_artist, 
     search_by_track, 
     filter_collaborations,
