@@ -35,13 +35,13 @@
 *   User harus mengetik nama artis atau nama lagu selengkap mungkin agar program juga tidak membaca output selain yang diinginkan user. Misalnya, user mengetik "Bad" padahal user menginginkan "Bad Bunny", program akan menampilkan hasil apapun yang nama artisnya memiliki unsur "bad" seperti "Moy Bobadilla" dan "Beabadoobee".
 
 ## 5. Link Video Penjelasan
-*   **Link YouTube Video:** [Masukkan URL video YouTube Unlisted Anda di sini]
+*   **Link YouTube Video:** [https://youtu.be/HsG_WPK5BlM]
 
 ## 6. Konsep Python yang Digunakan
 
 | Konsep | File Location | Contoh Function/Line |
 | :--- | :--- | :--- |
-| **Variables dan data types** | `data_loader.py` | Mendefinisikan `FILE_NAME` sebagai string constant dalam huruf kapital. Mengubah data CSV menjadi `int`, `float`, and `str`. |
+| **Variables dan data types** | `data_loader.py` dan `models.py` | Mendefinisikan `FILE_NAME` sebagai string constant dalam huruf kapital. Mengubah data CSV menjadi `int`, `float`, and `str`. |
 | **Input dan output** | `main.py` | Menggunakan `input()` di dalam `main()` untuk pilihan menu dan `print_aligned()` dengan f-strings untuk column formatting. |
 | **Operators** | `analysis.py` dan `main.py` | Menggunakan `/` dan `+` untuk melakukan perhitungan. Menggunakan `or`, `<=`, `>`, dan `==` untuk perbandingan. |
 | **Conditional statements** | `main.py` | Menggunakan `if`, `elif`, and `else` di dalam `while True` loop untuk menu options dan invalid inputs. |
