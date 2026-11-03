@@ -12,7 +12,7 @@
 *   **Kolom yang tidak digunakan:** Saya tidak menggunakan kolom `wrapped_global_top10_rank` karena berisi cell kosong sebanyak 727 dari 730 baris. File `data_loader.py` mengabaikan kolom tersebut ketika membuat objek `SpotifyTrack` untuk mencegah masalah adanya data yang kosong.
 
 ## 2. Cara Menjalankan Program dan Test
-*   **Untuk menjalankan main program:** Buka folder yang berisi python files tersebut dan buka terminal or command prompt, kemudian jalankan perintah:
+*   **Untuk menjalankan main program:** Buka folder yang berisi python files tersebut dan buka terminal atau command prompt, kemudian jalankan perintah:
     ```bash
     python main.py
     ```
