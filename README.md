@@ -6,7 +6,7 @@
 
 ## 1. Informasi Dataset
 *   **Nama Dataset:** `most_streamed_spotify_2025.csv`
-*   **Kaggle Link:** `https://www.kaggle.com/datasets/kylefengkfeng209/most-streamed-spotify-songs-2025`
+*   **Link Kaggle:** `https://www.kaggle.com/datasets/kylefengkfeng209/most-streamed-spotify-songs-2025`
 *   **Alasan memilih dataset:** Dataset ini memenuhi ketentuan ujian dengan jumlah baris sebanyak 730 baris dan tidak berisi informasi pribadi.
 *   **Kolom yang digunakan:** `rank`, `track`, `artist`, `billed_artist_count`, `is_collaboration`, `spotify_streams_total`, `daily_streams`, `daily_streams_rank`, `daily_stream_share_pct`.
 *   **Kolom yang tidak digunakan:** Saya tidak menggunakan kolom `wrapped_global_top10_rank` karena berisi cell kosong sebanyak 727 dari 730 baris. File `data_loader.py` mengabaikan kolom tersebut ketika membuat objek `SpotifyTrack` untuk mencegah masalah adanya data yang kosong.
